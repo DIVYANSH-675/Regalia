@@ -1,0 +1,110 @@
+/* Button and Nav Hover Effect */
+.btn,
+.nav :hover {
+  border-radius: 10px; /* Slightly rounded corners for buttons, jumbotron, and nav on hover */
+  transition: all 0.3s ease-in-out; /* Smooth transition effect */
+}
+.jumbotron {
+  background-color: white;
+  height:2px;
+}
+
+/* Cart Badge Styling */
+.cart-badge,
+.cart-badge:hover {
+  border-radius: 50%; /* Circular shape for cart badge */
+  padding: 6px; /* Increased padding for better visibility */
+  font-size: 14px; /* Larger font size */
+  font-weight: bold; /* Bold font weight */
+  background: #d4af37; /* Gold background */
+  color: #fff; /* White text color */
+}
+
+/* Product Name Styling */
+.name {
+  background: #333; /* Dark background for product name */
+  color: #fff; /* White text color */
+  font-weight: bold; /* Bold font weight */
+  padding: 10px 16px; /* Increased padding for better readability */
+  border-radius: 8px; /* Slightly rounded corners */
+}
+
+/* Background Shades */
+.black-10 {
+  background: #f8f8f8; /* Light gray background */
+}
+.black-9 {
+  background: #eaeaea; /* Lighter gray background */
+}
+.black-8 {
+  background: #dedede; /* Lightest gray background */
+}
+.black-7 {
+  background: #cacaca; /* Darker gray background */
+}
+.black-6 {
+  background: #aaaaaa; /* Dark gray background */
+}
+.black-5 {
+  background: #888888; /* Darkest gray background */
+}
+
+/* Product Image Styling */
+.product-img {
+  min-height: 200px; /* Increased min-height for product image */
+  max-width: 100%; /* Ensure image doesn't overflow container */
+  border-radius: 12px; /* Slightly rounded corners for product image */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Jumbotron Styling */
+.jumbotron {
+  height: 40px; /* Increased height for jumbotron */
+  color: #fff; /* White text color */
+  background: linear-gradient(-45deg, #b76e79, #d29c9e, #e9c6c8, #ffe7e8); /* Gradient background */
+  background-size: 400% 400%; /* Larger background size for smoother animation */
+  /* animation: Gradient 15s ease infinite; Apply gradient animation */
+  /* border-radius: 16px; Slightly rounded corners */
+  padding: 30px; /* Increased padding for better content placement */
+  /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); Subtle shadow effect */
+}
+
+/* Gradient Animation */
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+  .jumbotron {
+    height: 200px; /* Adjusted height for smaller screens */
+  }
+}
+
+/* Additional Global Styles */
+body {
+  font-family: 'Arial', sans-serif; /* Use Arial font for better readability */
+  line-height: 1.6; /* Improved line height for better legibility */
+  background-color: #f5f5f5; /* Light gray background color */
+}
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.logo {
+  width: 200px; /* Adjust the width of the logo */
+  height: auto;
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
